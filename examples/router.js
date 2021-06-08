@@ -12,7 +12,7 @@ router.get('/base/get', function(req, res) {
 })
 
 router.post('/base/post', function(req, res) {
-  res.json(req.body)
+  res.json(req.body.data)
 })
 
 router.post('/base/buffer', function(req, res) {
